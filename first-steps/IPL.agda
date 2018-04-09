@@ -48,4 +48,7 @@ module IPL where
   ∨-comm' (∨-intro₂ q) = (∨-intro₁ q)
 
   -- associative rule
+  -- ∨-assoc₁ : {P Q R : Set} → ((P ∨ Q) ∨ R) → (P ∨ (Q ∨ R))
+  -- ∨-assoc₁ : ∨-intro₁
   -- ∨-assoc: { P Q R : Set } → ((P ∨ Q) ∨ R) ⇔ (P ∨ (Q ∨ R))
+  -- ∨-assoc
